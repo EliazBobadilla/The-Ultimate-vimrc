@@ -7,8 +7,8 @@ My Neo Vim Configuration
 **xxxx = lenguage you want**
 
 e.g:
- - nvim ~/.config/nvim/ultisnips/python.snippets  
- - nvim ~/.config/nvim/ultisnips/html.snippets     
+ - ```nvim ~/.config/nvim/ultisnips/python.snippets```  
+ - ```nvim ~/.config/nvim/ultisnips/html.snippets```
 
 
 ### Usseful Links:
