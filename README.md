@@ -2,8 +2,8 @@
 My Neo Vim Configuration
 
 ## To use the UltiSnips:
-mkdir ~/.config/nvim/ultisnips 
-nvim ~/.config/nvim/ultisnips/xxxx.snippets
+#### mkdir ~/.config/nvim/ultisnips 
+#### nvim ~/.config/nvim/ultisnips/xxxx.snippets
 **xxxx = lenguage you want**
 
 e.g:
