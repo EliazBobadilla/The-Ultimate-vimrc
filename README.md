@@ -16,3 +16,7 @@ e.g:
 
 ### Usseful Links:
 https://youtu.be/wzrZPcwh-bE
+
+### 'Usseful' Links:
+[Real Python Tutorials](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
+
