@@ -1,8 +1,8 @@
-# MyNeoVImConfiguration
-My Neo Vim Configuration
+# My Neo VIm Configuration
+I'm a new [NVim](https://nvim.io) user so feel free to leave constructive criticism.
 
 ## To install The Pluggins:
-You have to follow the instructions in this [repository](https://github.com/junegunn/vim-plug)
+You have to follow the instructions in this [repository](https://github.com/junegunn/vim-plug).
 
 ## To use the UltiSnips:
 ##### ```mkdir ~/.config/nvim/ultisnips``` 
