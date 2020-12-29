@@ -5,8 +5,10 @@ I'm a new [NVim](https://neovim.io) user so feel free to leave constructive crit
 You have to follow the instructions in this [repository](https://github.com/junegunn/vim-plug).
 
 ## To use the UltiSnips:
-##### ```mkdir ~/.config/nvim/ultisnips``` 
-##### ```nvim ~/.config/nvim/ultisnips/xxxx.snippets```
+ ```bash 
+mkdir ~/.config/nvim/ultisnips``` 
+```bash
+nvim ~/.config/nvim/ultisnips/xxxx.snippets```
 **xxxx = lenguage you want**
 
 e.g:
