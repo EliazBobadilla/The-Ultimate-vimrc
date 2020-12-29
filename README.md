@@ -1,5 +1,5 @@
 # My Neo VIm Configuration
-I'm a new [NVim](https://nvim.io) user so feel free to leave constructive criticism.
+I'm a new [NVim](https://neovim.io) user so feel free to leave constructive criticism.
 
 ## To install The Pluggins:
 You have to follow the instructions in this [repository](https://github.com/junegunn/vim-plug).
