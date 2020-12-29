@@ -6,9 +6,13 @@ You have to follow the instructions in this [repository](https://github.com/june
 
 ## To use the UltiSnips:
  ```bash 
-mkdir ~/.config/nvim/ultisnips``` 
+mkdir ~/.config/nvim/ultisnips
+``` 
+
 ```bash
-nvim ~/.config/nvim/ultisnips/xxxx.snippets```
+nvim ~/.config/nvim/ultisnips/xxxx.snippets 
+```
+
 **xxxx = lenguage you want**
 
 e.g:
