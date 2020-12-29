@@ -1,4 +1,4 @@
-# My Neo VIm Configuration
+# My Neo Vim Configuration
 I'm a new [NVim](https://neovim.io) user so feel free to leave constructive criticism.
 
 ## To install The Pluggins:
