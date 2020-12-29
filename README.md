@@ -16,8 +16,13 @@ nvim ~/.config/nvim/ultisnips/xxxx.snippets
 **xxxx = lenguage you want**
 
 e.g:
- - ```nvim ~/.config/nvim/ultisnips/python.snippets```  
- - ```nvim ~/.config/nvim/ultisnips/html.snippets```
+  ```bash
+  nvim ~/.config/nvim/ultisnips/python.snippets
+  ```  
+ 
+ ```bash
+ nvim ~/.config/nvim/ultisnips/html.snippets
+ ```
 
 
 ### Usseful Links:
