@@ -11,10 +11,15 @@ set clipboard=unnamed
 syntax enable 
 set showcmd
 set ruler
+set smartindent
 set ruler
 set cursorline
 set encoding=utf-8
 set sw=2
+set updatetime=50
+set cmdheight=2
+set shortmess+=c
+set colorcolumn=80
 
 " END OF BASIC STUF
 
@@ -29,10 +34,12 @@ set fileformat=unix
 
 " END OF PYTHON STUFF
 
-" PLUG
+"---------------------------PLUG------------------
 call plug#begin('~/.vim/plugged')
 
+Plug 'davidhalter/jedi-vim'
 Plug 'morhetz/gruvbox'
+Plug 'bryall/contextprint.nvim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
@@ -41,9 +48,14 @@ Plug 'preservim/nerdcommenter'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sirver/ultisnips'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
+
+" Cheat Sheet
+Plug 'dbeniamine/cheat.sh-vim'
 
 call plug#end()
-" END OF PLUGINS
+"------------------- END OF PLUGINS------------------
 
 " THEMES
 
@@ -52,6 +64,8 @@ let g:airline_theme='gruvbox'
 " END THEMES
 
 " CONFIGURATIONS
+
+let g:deoplete#enable_at_startup = 1
 
 if (has("termguicolors"))
     set termguicolors 
