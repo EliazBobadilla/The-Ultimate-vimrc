@@ -13,7 +13,6 @@ set showcmd
 set ruler
 set smartindent
 set ruler
-set cursorline
 set encoding=utf-8
 set sw=2
 set updatetime=50
