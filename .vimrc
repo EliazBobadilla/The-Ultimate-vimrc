@@ -84,6 +84,6 @@ nmap <leader>2 :bn<CR>
 nmap <C-w> :bd<CR>
 
 " Ultisnips
-let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/ultisnips']
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/ultisnips']
 let g:UltiSnipsExpandTrigger='<tab>'
 let g:UltiSnipsJumpForwardTrigger='<tab>'
