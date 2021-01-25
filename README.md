@@ -5,15 +5,15 @@ I started using VIM because I wanted to stop using the mouse, but now VIM is a k
 
 ### Plugins Included:
 
-- davidhalter/jedi-vim
-- jiangmiao/auto-pairs
-- easymotion/vim-easymotion
-- scrooloose/nerdtree
-- christoomey/vim-tmux-navigator
-- preservim/nerdcommenter
-- norcalli/nvim-colorizer.lua
-- vim-airline/vim-airline-themes
-- sirver/ultisnips
-- zchee/deoplete-jedi
+- [davidhalter/jedi-vim](https://github.com/)
+- [jiangmiao/auto-pairs](https://github.com/)
+- [easymotion/vim-easymotion](https://github.com/)
+- [scrooloose/nerdtree]()
+- [christoomey/vim-tmux-navigator](https://github.com/)
+- [preservim/nerdcommenter](https://github.com/)
+- [norcalli/nvim-colorizer.lua](https://github.com/)
+- [vim-airline/vim-airline-themes](https://github.com/)
+- [sirver/ultisnips](https://github.com/)
+- [zchee/deoplete-jedi](https://github.com/)
 
-**Don't forget to add the [snippets](pyhon.snippets)!*
+**Don't forget to add the [snippets](pyhon.snippets)!**
