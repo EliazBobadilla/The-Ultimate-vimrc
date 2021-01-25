@@ -3,6 +3,7 @@
 let mapleader = ' '
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
+nmap <Leader>qq :q!<CR>
 
 set mouse=a
 set number
