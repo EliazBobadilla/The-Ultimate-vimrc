@@ -1,49 +1,89 @@
- 1 " BASIC STUFF                                                                   
- 2                                                                                 
- 3 let mapleader = ' '                                                             
- 4 nmap <Leader>w :w<CR>                                                           
- 5 nmap <Leader>q :q<CR>                                                           
- 6 nmap <Leader>qq :q!<CR>                                                         
- 7                                                                                 
- 8 set mouse=a                                                                     
- 9 set number                                                                      
-10 set numberwidth=1                                                               
-11 set clipboard=unnamed                                                           
-12 syntax enable                                                                   
-13 set showcmd                                                                     
-14 set ruler                                                                       
-15 set smartindent                                                                 
-16 set ruler                                                                       
-17 set encoding=utf-8                                                              
-18 set sw=2                                                                        
-19 set updatetime=50                                                               
-20 set cmdheight=2                                                                 
-21 set shortmess+=c                                                                
-22 set colorcolumn=80                                                              
-23                                                                                 
-24 " END OF BASIC STUF                                                             
-25                                                                                 
-26 " PYTHON STUFF                                                                  
-27                                                                                 
-28 set tabstop=4                                                                   
-29 set softtabstop=4                                                               
-30 set shiftwidth=4                                                                
-31 set expandtab                                                                   
-32 set autoindent                                                                  
-33 set fileformat=unix                                                             
-34                                                                                 
-35 " END OF PYTHON STUFF                                                           
-36                                                                                 
-37 "---------------------------PLUG------------------                              
-38 call plug#begin('~/.vim/plugged')                                               
-39                                                                                 
-40 Plug 'davidhalter/jedi-vim'                                                     
-41 Plug 'morhetz/gruvbox'                                                          
-42 Plug 'bryall/contextprint.nvim'                                                 
-43 Plug 'jiangmiao/auto-pairs'                                                     
-44 Plug 'easymotion/vim-easymotion'                                                
-45 Plug 'scrooloose/nerdtree'                                                      
-46 Plug 'christoomey/vim-tmux-navigator'                                           
-47 Plug 'preservim/nerdcommenter'                                                  
-"~/.vimrc" 89L, 1709C
-                                                                                                                                                              1,1           Top
+" BASIC STUFF
+
+let mapleader = ' '
+nmap <Leader>w :w<CR>
+nmap <Leader>q :q<CR>
+nmap <Leader>qq :q!<CR>
+
+set mouse=a
+set number
+set numberwidth=1
+set clipboard=unnamed
+syntax enable 
+set showcmd
+set ruler
+set smartindent
+set ruler
+set encoding=utf-8
+set sw=2
+set updatetime=50
+set cmdheight=2
+set shortmess+=c
+set colorcolumn=80
+
+" END OF BASIC STUF
+
+" PYTHON STUFF
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set fileformat=unix 
+
+" END OF PYTHON STUFF
+
+"---------------------------PLUG------------------
+call plug#begin('~/.vim/plugged')
+
+Plug 'davidhalter/jedi-vim'
+Plug 'morhetz/gruvbox'
+Plug 'bryall/contextprint.nvim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'easymotion/vim-easymotion'
+Plug 'scrooloose/nerdtree'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'preservim/nerdcommenter'
+Plug 'norcalli/nvim-colorizer.lua'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'sirver/ultisnips'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
+
+" Cheat Sheet
+Plug 'dbeniamine/cheat.sh-vim'
+
+call plug#end()
+"------------------- END OF PLUGINS------------------
+
+
+
+" CONFIGURATIONS
+
+
+if (has("termguicolors"))
+    set termguicolors 
+endif
+
+
+" NERD COMENTER
+nmap <C-_> <Plug>NERDCommenterToggle
+nmap <C-_> <Plug>NERDCommenterToggle<CR>gv 
+
+" NERDTree
+let NERDTreeQuitOpen=1
+let g:NERDTreeMinimalUI=1
+nmap <F2> :NERDTreeToggle<CR>
+
+" Tabs
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#fnamemode=':t'
+nmap <leader>1 :bp<CR>
+nmap <leader>2 :bn<CR>
+nmap <C-w> :bd<CR>
+
+" Ultisnips
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/ultisnips']
+let g:UltiSnipsExpandTrigger='<tab>'
+let g:UltiSnipsJumpForwardTrigger='<tab>'
